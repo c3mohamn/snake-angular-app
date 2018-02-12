@@ -15,7 +15,7 @@ export class SnakeGameComponent implements OnInit {
 
   constructor() {
     this.snake = new Snake(400, 240, 3);
-    this.game = new SnakeGame(800, 500, 0, 10, this.snake);
+    this.game = new SnakeGame(800, 500, 0, 2, this.snake);
     this.started = false;
   }
 

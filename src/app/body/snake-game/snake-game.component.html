@@ -1,7 +1,5 @@
 <div class="snake-container" [style.width.px]="game.boardWidth" [style.height.px]="game.boardHeight">
-  <div class="snake" [style.top.px]="snake.positionY" [style.left.px]="snake.positionX">
-    <div class="snake-inner"></div>
-  </div>
+  <app-snake [posX]="snake.positionX" [posY]="snake.positionY"></app-snake>
   <div class="snake-container-footer ui grid">
     <div class="points-counter eight wide column">
       <h2>{{'Points: ' +  game.points }}</h2>

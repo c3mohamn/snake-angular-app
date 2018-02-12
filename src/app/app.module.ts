@@ -9,6 +9,7 @@ import { BodyComponent } from './body/body.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderTitleComponent } from './header/header-title/header-title.component';
 import { SnakeGameComponent } from './body/snake-game/snake-game.component';
+import { SnakeComponent } from './body/snake-game/snake/snake.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { SnakeGameComponent } from './body/snake-game/snake-game.component';
     BodyComponent,
     FooterComponent,
     HeaderTitleComponent,
-    SnakeGameComponent
+    SnakeGameComponent,
+    SnakeComponent
   ],
   imports: [
     BrowserModule,

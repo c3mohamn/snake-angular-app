@@ -1,0 +1,14 @@
+.snake {
+  padding: 2px;
+  position: absolute;
+  margin: 0;
+  height: 20px;
+  width: 20px;
+
+  .snake-inner {
+    background: black;
+    height: 100%;
+    width: 100%;
+    border-radius: 2px;
+  }
+}
