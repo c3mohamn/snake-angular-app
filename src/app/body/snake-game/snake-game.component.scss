@@ -1,0 +1,14 @@
+.snake-container {
+  margin: 0 auto;
+  height: 500px;
+  width: 800px;
+  background: white;
+
+  .snake {
+    margin: 0;
+    height: 20px;
+    width: 20px;
+    background: black;
+    border-radius: 2px;
+  }
+}
