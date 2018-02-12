@@ -5,6 +5,8 @@ export class SnakeGame {
   snakeTail: Snake;
 
   constructor (
+    public boardWidth: number,
+    public boardHeight: number,
     public points: number,
     public speed: number,
     public snake: Snake
