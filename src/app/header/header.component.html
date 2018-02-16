@@ -1,3 +1,9 @@
 <div class="header ui grid padded">
-  <app-header-title class="sixteen wide column middle aligned"></app-header-title>
+  <app-header-title [routerLink]="['/home']" class="ten wide column middle aligned"></app-header-title>
+  <div class="six wide column middle aligned">
+    <div class="ui horizontal list">
+        <a [routerLink]="['/home']" class="item">Home</a>
+        <a [routerLink]="['/about']" class="item">About</a>
+    </div>
+  </div>
 </div>
